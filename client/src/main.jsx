@@ -1,11 +1,14 @@
-
-import { createRoot } from 'react-dom/client'
-import './index.css'
+// filepath: e:\CMS-Project\client\src\main.jsx
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
 import App from './App.jsx'
-import{BrowserRouter} from 'react-router'
+import './index.css'
 
-createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 )

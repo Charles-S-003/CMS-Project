@@ -1,8 +1,12 @@
-import './index.css';
+// filepath: e:\CMS-Project\client\src\App.jsx
+import AppRoutes from "./routes/AppRoutes";
+
 function App() {
   return (
     <>
-    <AppRoutes/>
+      <AppRoutes />
     </>
-  )
+  );
 }
+
+export default App;
