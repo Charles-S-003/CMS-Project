@@ -1,6 +1,7 @@
 import React from 'react'
 
-export const Dashboard = () => {
+const Dashboard = () => {
+  console.log("yes"); 
   return (
     <div>Dashboard</div>
   )
