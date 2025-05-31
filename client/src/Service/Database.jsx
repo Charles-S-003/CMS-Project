@@ -19,6 +19,10 @@ class db {
         if (user.password !== password) throw new Error("Password is not correct")
         return "User is authenticated"
     }
+
+    logout(){
+        
+    }
 }
 
 export default db ;

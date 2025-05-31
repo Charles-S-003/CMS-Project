@@ -35,6 +35,10 @@ const AuthContent = ({ children }) => {
     }
   }
 
+  const logout = () => {
+    setAuth(false) ; 
+  }
+
 
 
   return (
