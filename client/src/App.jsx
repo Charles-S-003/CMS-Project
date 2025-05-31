@@ -1,13 +1,12 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Dashboard from './pages/Dashboard';
-const App = () => {
+// filepath: e:\CMS-Project\client\src\App.jsx
+import AppRoutes from "./routes/AppRoutes";
+
+function App() {
   return (
-    <Routes>
-      <Route path="/" element={<h1>Home</h1>} />
-      <Route path="/dashboard" element={<Dashboard />} />
-    </Routes>
+    <>
+      <AppRoutes />
+    </>
   );
-};
+}
 
 export default App;
