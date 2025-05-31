@@ -1,3 +1,5 @@
+
+
 class db {
     addUser({ email, password }) {
         const users = JSON.parse(localStorage.getItem('users')) || []
@@ -19,4 +21,4 @@ class db {
     }
 }
 
-export default db
+export default db ;

@@ -2,7 +2,7 @@ import React, { createContext , useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import db from '../Service/Database'
 
-export const Auth = createContext()
+export const Auth = createContext() ;
 
 const AuthContent = ({ children }) => {
   const navigate = useNavigate();
@@ -44,4 +44,4 @@ const AuthContent = ({ children }) => {
   )
 }
 
-export default AuthContent
+export default AuthContent ;

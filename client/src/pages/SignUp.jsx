@@ -1,3 +1,5 @@
+
+
 import React, { useContext, useState } from 'react'
 import { Auth } from '../context/AuthContent'
 import { Link } from 'react-router'
@@ -59,4 +61,4 @@ export const SignUp = () => {
   )
 }
 
-export default SignUp ; 
+export default SignUp ;
